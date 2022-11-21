@@ -1,0 +1,41 @@
+.nav{
+    height: 100vh;
+    background-color: rgb(59, 59, 59);
+    .form{
+        position: relative;
+        top: 150px;
+        display: flex;
+        
+        justify-content:space-around;
+        align-items: center;
+        .getInTouch{
+            display: flex;
+            flex-direction: column;
+            .first{
+                color: rgb(169, 245, 18);
+                font-weight: 10;
+                font-size: 3rem;
+            }
+            .second{
+                font-weight: 8;
+                font-size: 2rem;
+            
+            }
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            .input{
+                height: 2rem;
+                width: 18rem;
+                border-radius: 10px;
+            }
+            textarea{
+                height: 10rem;
+                width: 18rem;
+            }
+        }
+    }
+}

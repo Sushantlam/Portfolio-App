@@ -1,0 +1,46 @@
+.container
+{
+    height:20vh;
+    background-color :rgb(182, 174, 174);
+  
+    .footer-content
+    {
+        height: 10vh;
+       
+        display: flex;
+        justify-content: space-between;
+
+        .left
+        {
+           flex-direction: column;
+           margin-left: 1rem;
+           margin-top: 2rem;
+           
+
+           h3{
+            padding: 1rem;
+           }
+           
+        }
+        .right 
+        {
+           height: 10vh;
+           
+           .social
+           {
+           
+            margin-top: 2rem;
+            
+            h3,p
+            {
+                padding: 0.5rem;
+            }
+           }
+           .facebook:hover{
+            cursor: pointer;
+            
+
+           }
+        }
+    }
+}

@@ -1,0 +1,71 @@
+// body{
+//     background-color: black;
+//     // overflow: hidden;
+// }
+
+.hero-container{
+    height: 100vh;;
+   
+
+    // display: flex;
+    // justify-content: center;
+   .imageContainer{
+    height: 100%;;
+    width: 90vw;
+   
+    img{
+        height: 100vh;
+        width: 100vw;
+        // background-size: cover;
+        // background-position: center;
+        // object-fit: cover;
+        overflow: hidden;  &::-webkit-scrollbar{
+        display: none;//its for hiding the  scroll bar 
+    }
+   
+
+    
+      
+    }
+
+    
+   }
+   .imageContainer::after
+   {
+       content: "";
+       height: 100vh;
+       width: 100vw;
+       top:0;
+       left: 0;
+       background-color: black;
+       position: absolute;
+       opacity: 0.8;
+       overflow: hidden;
+
+   }
+
+   h3{
+    position: absolute;
+    top:350px;
+    left: 40%;
+
+   }
+    .context
+   {
+    position: absolute;
+    top: 400px;
+    left: 35%;
+       
+      h2,h3{
+            text-align: center;
+        }
+    }
+
+   .btnLink{
+    position: absolute;
+    top: 200px;
+    left: 35%;
+   }
+    
+}
+
